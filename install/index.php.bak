@@ -73,7 +73,7 @@
 			}
 			function getStatus($arr){
 				$url = 'https://license.viserlab.com/api';
-				$arr['product'] = 'bisurv';
+				$arr['product'] = 'MLM';
 				$call = $url . "?" . http_build_query($arr);
 				return curlContent($call); 
 			}

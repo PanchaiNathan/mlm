@@ -33,7 +33,7 @@ function sidebarVariation(){
 
 function systemDetails()
 {
-    $system['name'] = 'bisurv';
+    $system['name'] = 'MLM';
     $system['version'] = '1.0';
     return $system;
 }
